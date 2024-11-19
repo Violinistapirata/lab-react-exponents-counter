@@ -1,9 +1,7 @@
 // import { useState } from "react";
 
 
-const Counter = (props) => {
-
-  const {count, increment, decrement} = props;
+const Counter = ({count, increment, decrement}) => {
 
   return (
     <div className="counter-container">
